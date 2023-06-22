@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Fernando</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="#" class="logo">Fernando Gutemberg</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Resumo</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-content">
+                    <div class="slider-general">
+                        <span class="welcome-msg">
+                            Bem vindo! Olá Mundo!
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Olá, Eu sou o
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Fernando</h2>
+                                <h2 class="hover-title" >Gutemberg</h2>
+                            </div>
+                            <p>
+                                Olá, meu nome é Fernando Gutemberg, sou unversitário de Análise e Desenvolvimento de Sistemas na UNIDESC e estou entusiasmado em compartilhar com você o meu portfólio em HTML e CSS. 
+                            </p>
+                            <div class="download-resume">
+                                <a href="CURRÍCULO GERAL.docx.pdf" target="_blank">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="image/nando.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">Contate-me</h2>
+                <h2 class="hover-title">Contate-me</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    Brazil, Brasília(DF)
+                </span>
+                <h3>fernando70sil@gmail.com</h3>
+                <a href="#">
+                    (61) 99352:0000
+                </a>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/fernando.gutemberg.313" target="_blank" rel="external">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/fernando_gtc/?next=%2F" target="_blank" rel="external">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/fernando-gutemberg-05a122219/" target="_blank" rel="external">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function () {
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
